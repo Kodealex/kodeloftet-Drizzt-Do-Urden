@@ -1,0 +1,46 @@
+/* Body css styling */
+body {
+  background-color: blueviolet;
+}
+
+/* Navigasjons meny */
+.navigation {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 15px;
+  padding: 0px;
+}
+
+/* Css styling av cardDrizztDourden */
+.SectionDrizzt {
+}
+
+.cardImgDrizzt {
+  border: 2px solid black;
+  width: 50%;
+  margin: 10px;
+  padding: 0px;
+}
+
+.cardDrizztDourden {
+}
+
+/* Text størrelse av linker til drizzt dourden */
+.menu2 {
+  font-size: 80%;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(47, 50, 218);
+}
+
+/* MEDIA QUERY */
+@media (max-width: 426px) {
+  .cardDrizztDourden {
+    flex-direction: column;
+  }
+}
