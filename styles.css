@@ -14,16 +14,25 @@ body {
 
 /* Css styling av cardDrizztDourden */
 .SectionDrizzt {
+  
+
 }
 
+.cardText{
+  margin: 5px;
+}
 .cardImgDrizzt {
   border: 2px solid black;
   width: 50%;
   margin: 10px;
   padding: 0px;
+  
 }
 
 .cardDrizztDourden {
+  display:flex;
+  justify-content:end;
+
 }
 
 /* Text størrelse av linker til drizzt dourden */
